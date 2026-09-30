@@ -107,10 +107,10 @@ export default function Home() {
           <span className="brand-mark">D</span>
           <span>DUEL<span className="brand-period">.</span></span>
         </a>
-        <div className="season-label">СЕЗОН 04 ffjfjfjj <span>·</span> 12 ДНІВ</div>
+        <div className="season-label">СЕЗОН 04<span>·</span> 12 ДНІВ</div>
         <nav className="side-nav" aria-label="Екрани прототипу">
           <button className={screen === "lobby" ? "nav-link active" : "nav-link"} onClick={() => setScreen("lobby")}>
-            <span className="nav-symbol">⌂</span> Лобі fkkkfkkf<span className="nav-count">01</span>
+            <span className="nav-symbol">⌂</span> Лобі<span className="nav-count">01</span>
           </button>
           <button className={screen === "battle" ? "nav-link active" : "nav-link"} onClick={() => setScreen("battle")}>
             <span className="nav-symbol">↗</span> Арена <span className="nav-count">02</span>
